@@ -13,6 +13,8 @@ tokio = { version = "1", features = ["full"] }
 tokio-timer = "^0.2.13"
 quiche = { version = "^0.16.0", optional = true }
 quinn-proto = { version = "^0.9.2", optional = true }
+boring = { version = "^2.1.0", optional = true }
+rustls = { version = "^0.20.8", optional = true }
 pollster = "^0.3.0"
 rust-crypto = "^0.2"
 chrono = "^0.4.23"
